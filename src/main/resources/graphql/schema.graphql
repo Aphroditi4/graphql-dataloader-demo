@@ -1,0 +1,37 @@
+type Query {
+    brewery(id: ID!): Brewery
+    breweries: [Brewery]
+    beer(id: ID!): Beer
+    beers: [Beer]
+    review(id: ID!): Review
+    reviews: [Review]
+}
+
+type Brewery {
+    id: ID!
+    name: String!
+    location: String!
+    established: Int
+    description: String
+    beers: [Beer]
+}
+
+type Beer {
+    id: ID!
+    name: String!
+    style: String!
+    abv: Float
+    ibu: Int
+    description: String
+    brewery: Brewery!
+    reviews: [Review]
+}
+
+type Review {
+    id: ID!
+    rating: Int!
+    comment: String
+    author: String!
+    date: String
+    beer: Beer!
+}

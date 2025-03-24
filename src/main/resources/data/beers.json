@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Львівське 1715",
+    "style": "Lager",
+    "abv": 4.7,
+    "ibu": 18,
+    "description": "Класичний лагер з насиченим смаком та легкою гіркотою.",
+    "breweryId": "1",
+    "reviewIds": ["1", "2", "3"]
+  },
+  {
+    "id": "2",
+    "name": "Львівське Портер",
+    "style": "Porter",
+    "abv": 8.0,
+    "ibu": 25,
+    "description": "Темний міцний портер з нотками карамелі та шоколаду.",
+    "breweryId": "1",
+    "reviewIds": ["4", "5"]
+  },
+  {
+    "id": "3",
+    "name": "Львівське Білий Лев",
+    "style": "Wheat Beer",
+    "abv": 4.5,
+    "ibu": 12,
+    "description": "Нефільтроване пшеничне пиво з фруктовими нотками.",
+    "breweryId": "1",
+    "reviewIds": ["6"]
+  },
+  {
+    "id": "4",
+    "name": "Опілля Корифей",
+    "style": "Lager",
+    "abv": 4.5,
+    "ibu": 20,
+    "description": "Світле пиво з приємним солодовим смаком.",
+    "breweryId": "2",
+    "reviewIds": ["7", "8"]
+  },
+  {
+    "id": "5",
+    "name": "Опілля Фірмове",
+    "style": "Amber Lager",
+    "abv": 4.8,
+    "ibu": 22,
+    "description": "Напівтемне пиво з карамельним присмаком.",
+    "breweryId": "2",
+    "reviewIds": ["9"]
+  },
+  {
+    "id": "6",
+    "name": "Правда Hoppy Lager",
+    "style": "Hoppy Lager",
+    "abv": 5.2,
+    "ibu": 38,
+    "description": "Легкий лагер з яскраво вираженою хмелевою гіркотою.",
+    "breweryId": "3",
+    "reviewIds": ["10", "11"]
+  },
+  {
+    "id": "7",
+    "name": "Правда Авторське",
+    "style": "Saison",
+    "abv": 6.5,
+    "ibu": 30,
+    "description": "Бельгійський сезонний ель з пряним ароматом.",
+    "breweryId": "3",
+    "reviewIds": ["12"]
+  },
+  {
+    "id": "8",
+    "name": "Правда IPA",
+    "style": "IPA",
+    "abv": 6.8,
+    "ibu": 65,
+    "description": "Насичений хмелевий IPA з цитрусовими нотками.",
+    "breweryId": "3",
+    "reviewIds": ["13", "14"]
+  },
+  {
+    "id": "9",
+    "name": "Varvar Stout",
+    "style": "Stout",
+    "abv": 7.0,
+    "ibu": 40,
+    "description": "Насичений стаут з нотками кави та шоколаду.",
+    "breweryId": "4",
+    "reviewIds": ["15", "16"]
+  },
+  {
+    "id": "10",
+    "name": "Varvar DIPA",
+    "style": "Double IPA",
+    "abv": 8.5,
+    "ibu": 85,
+    "description": "Міцний подвійний IPA з інтенсивним хмелевим ароматом.",
+    "breweryId": "4",
+    "reviewIds": ["17", "18"]
+  }
+]
